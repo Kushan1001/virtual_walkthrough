@@ -71,6 +71,3 @@ def proxy_tiles(subpath):
     except Exception as e:
         return f"Error fetching asset: {e}", 500
 
-
-if __name__ == "__main__":
-    app.run(debug=True)
